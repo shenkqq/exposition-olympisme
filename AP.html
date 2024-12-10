@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L'OLYMPISME, 32 jours avec Pierre de Coubertin: grandeur et mystères du père des JO modernes</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Another+Shabby&display=swap');
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #242121;
+            color: #333;
+        }
+
+        header {
+            position: relative;
+            background-image: url("jo-paris.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            color: rgb(253, 250, 250);
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        header h1 {
+            font-size: 3em;
+            font-weight: bold;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+            margin: 0;
+            padding: 20px;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #0033A0;
+        }
+
+        .disciplines {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .discipline {
+            width: 30%;
+            margin: 10px;
+            background-color: #faf7f7;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .discipline img {
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        .discipline:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: rgba(0, 51, 160, 0.7);
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        #cookieConsentBanner {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            text-align: center;
+            display: none;
+            z-index: 9999;
+            padding: 20px;
+            font-size: 16px;
+        }
+
+        #cookieConsentBanner .content {
+            margin-top: 20%;
+        }
+
+        #cookieConsentBanner a {
+            color: #ffa500;
+            text-decoration: none;
+        }
+
+        #cookieConsentBanner button {
+            background-color: #ffa500;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+            color: white;
+            margin: 10px;
+        }
+
+        #cookieConsentBanner button#acceptCookies {
+            background-color: #4CAF50;
+        }
+
+        #cookieConsentBanner button#declineCookies {
+            background-color: #f44336;
+        }
+
+        @media (max-width: 768px) {
+            .discipline {
+                width: 100%;
+            }
+        }
+       
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>L'OLYMPISME, 32 jours avec Pierre de Coubertin: grandeur et mystères du père des JO modernes</h1>
+    </header>
+    
+    <section id="disciplines">
+        <h2>Les Jeux Olympiques 2024</h2>
+        <div class="disciplines">
+    
+            <section>
+                <div class="discipline" id="basketball">
+                    <h3>Basketball</h3>
+                    <div id="image-container-basket"></div>
+                    <p>Le basketball est l'un des sports les plus populaires et attendue pour ces Jeux Olympiques 2024. Du coté du basket masculin la superteam américaine l'emporte comme attendue face à la France avec une troisième place pour la Serbie et coté des féminine le résultat est le même, victoire des américaines en final face à la France avec ici une troisième place pour l'Australie. </p>
+                </div>
+            
+                <div class="discipline" id="escrime">
+                    <h3>Escrime</h3>
+                    <div id="image-container-escrime"></div>
+                    <p>Les épreuves d’escrime aux Jeux Olympiques de Paris 2024, ont offert des performances marquantes pour les équipes françaises et internationales. Au niveau individuel une médaille d'argent pour Yannick Borel, une d'argent pour Auriane Mallo pour les épreuves d'épée. Pour les sabres c'est une double médaille pour les française avec un duel 100% français en final. Pour l'épreuve par équipe deux médaille de bronze pour les hommes dans les épreuves d'épées et de sabres. </p>
+                </div>
+            
+                <div class="discipline" id="judo">
+                    <h3>Judo</h3>
+                    <div id="image-container-judo"></div>
+                    <p>Lors des Jeux Olympiques de Paris 2024, le judo a été une des disciplines phares, marquée par des performances exceptionnelles avec 10 médailles (2 or, 2 argent, 6 bronze) pour la France. Teddy Riner marque de nouveau l'histoire en remportant l'or. L'épreuve par équipe mixte a été remporté par la France dans une finale épique contre le Japon. La France la remporté au bout du suspens grâce à Teddy Riner. </p>
+                </div>
+            
+                <div class="discipline" id="volley">
+                    <h3>Volley-ball</h3>
+                    <div id="image-container-volley"></div>
+                    <p>Le volley-ball nous a donné des moments intenses avec des résultats marquants pour les compétitions masculines et féminines. Du coté des hommes la France a brillé en remportant la médaille d'or pour la deuxième fois consécutive après son triomphe à Tokyo 2020. En finale, les Bleus ont dominé la Pologne en trois sets. Pour les femmes la compétition a été dominée par l'Italie, qui a remporté l'or en battant les États-Unis en finale. Le Brésil s'est assuré la médaille de bronze après une lutte acharnée contre la Chine.
+
+                    </p>
+                </div>
+            
+                <div class="discipline" id="football">
+                    <h3>Football</h3>
+                    <div id="image-container-football"></div>
+                    <p>Le football le sport le plus populaire au monde ont offert un spectacle riche en émotions et en rebondissements. Pour le tournoi masculin La médaille d'or a été remportée par l'Espagne, qui a triomphé en finale contre la France dans un match haletant Le Maroc, auteur d’un tournoi impressionnant, a pris la médaille de bronze après avoir battu l’Argentine dans le match pour la troisième place. Du coté du tournoi des féminines les États-Unis ont confirmé leur statut de favoris en remportant la médaille d'or après une finale très disputée contre le Brésil, la France remporte tout de même la médaille de bronze. </p>
+                </div>
+            
+                <div class="discipline" id="natation">
+                    <h3>Natation</h3>
+                    <div id="image-container-natation"></div>
+                    <p>La natation a marquée ses JO 2024 avec des performances spectaculaires et des records impressionnants. Léon Marchand le héros français a dominé plusieurs épreuves, remportant l'or au 400 m 4 nages, au 200 m 4 nages, et contribuant au relais français pour décrocher le bronze au 4x100 m 4 nages. Les relais américains et chinois ont brillé, avec des victoires dans plusieurs catégories, y compris les relais 4x100 m nage libre et 4x100 m 4 nages mixte, mettant en lumière la profondeur de leurs équipes. </p>
+                </div>
+            
+    </section>
+    
+    <script>
+
+const imagesBasket = ["basket1.png", "basket2.png", "basket3.png", "basket4.png"];
+const imagesEscrime = ["escrime1.png", "escrime2.png", "escrime3.png", "escrime4.png"];
+const imagesJudo = ["judo1.png", "judo2.png", "judo3.png", "judo4.png"];
+const imagesVolley = ["volley1.png", "volley2.png", "volley3.png", "volley4.png"];
+const imagesFootball = ["foot1.png", "foot2.png", "foot3.png", "foot4.png"];
+const imagesNatation = ["natation1.png", "natation2.png", "natation3.png", "natation4.png"];
+
+function getRandomImage(images) {
+    const randomIndex = Math.floor(Math.random() * images.length);
+    return images[randomIndex];
+}
+
+function displayRandomImages(disciplineImages, containerId, count = 1) {
+    const container = document.getElementById(containerId);
+    
+    for (let i = 0; i < count; i++) {
+        const randomImage = getRandomImage(disciplineImages);
+        const imgElement = document.createElement('img');
+        imgElement.src = randomImage;
+        imgElement.alt = "Image aléatoire";
+        container.appendChild(imgElement);
+    }
+}
+
+window.onload = function() {
+   
+    const disciplines = [
+        { images: imagesBasket, containerId: 'image-container-basket' },
+        { images: imagesEscrime, containerId: 'image-container-escrime' },
+        { images: imagesJudo, containerId: 'image-container-judo' },
+        { images: imagesVolley, containerId: 'image-container-volley' },
+        { images: imagesFootball, containerId: 'image-container-football' },
+        { images: imagesNatation, containerId: 'image-container-natation' }
+    ];
+
+    
+    let totalImagesDisplayed = 0;
+    const maxImagesToDisplay = 10;
+
+    while (totalImagesDisplayed < maxImagesToDisplay) {
+       
+        const randomDiscipline = disciplines[Math.floor(Math.random() * disciplines.length)];
+        
+       
+        displayRandomImages(randomDiscipline.images, randomDiscipline.containerId, 1);
+        
+        
+        totalImagesDisplayed++;
+    }
+}
+
+    </script>
+            
+<section id="pierre">
+    <h2>Qui était Pierre de Coubertin ?</h2>
+    <div>
+        <img src="pierredecoubertin.jpg" alt="Pierre de Coubertin " width="600" height="400">
+    </div>
+    <div>
+        <p><strong>Pierre de Coubertin</strong> (1863-1937) est principalement reconnu comme le fondateur des Jeux Olympiques modernes. Né dans une famille aristocratique, il se distingue dès sa jeunesse par une passion pour l'éducation et le sport. En tant qu'éducateur, il plaide pour l'intégration de l'éducation physique dans les écoles, inspiré par ses voyages, notamment en Angleterre.
+
+            Influencé par l'Antiquité grecque, il réussit à rétablir les Jeux Olympiques en 1896 à Athènes, alliant ainsi son amour du sport à son idéal humaniste. Pour lui, l'Olympisme représente bien plus qu'une compétition : c'est un moyen de promouvoir l'unité et les valeurs universelles de respect, d'excellence et d'amitié.
+            
+            Écrivain et réformateur, Coubertin a également marqué la scène intellectuelle par ses ouvrages sur l'éducation et le sport. Bien que son parcours ait été parsemé de difficultés, il reste l'une des figures les plus influentes du sport moderne et un visionnaire dont l'héritage perdure à travers les Jeux Olympiques..</p>
+    </div>
+    <div>
+        <p>Pierre de Coubertin est aussi un personnage relativement controversé, de part certains de ces propos jugés misogynes mais également de part ces rapprochements politiques.</p>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/k2u7bl6PJb4?si=af_a9KS12nLdS4hw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        
+    
+        <p>Source : YouTube, vidéo "Pierre de Coubertin - La face cachée des JO", publiée par [FranceTV] - <a href="https://www.youtube.com/watch?v=k2u7bl6PJb4" target="_blank">Regarder la vidéo</a></p>
+        
+    </div>
+</section>
+
+<section>
+    <h2>Lettre du Commissaire de l'Exposition</h2>
+
+
+<button id="translateBtn">Translate to English</button>
+
+<div class="lettre-manuscrite">
+    <p id="francais" class="manuscrit">
+        Lorsque le directeur du Musée, m’a fait cette demande, particulière je l’avoue, d’une exposition au nom de :<br>
+        <strong>« L’OLYMPISME, 32 jours avec Pierre de Coubertin : grandeur et mystères du père des JO modernes »</strong>,<br>
+        je me suis demandé pourquoi ? Non pas pourquoi moi, excusez mon impertinence, mais, pourquoi 32 ?<br><br>
+        Hasard du calendrier ? Appel déguisé à la France et donc à l’origine de Pierre de Coubertin ? Ce trait d’humour d’ailleurs, aurait été, je crois, apprécié de l’homme. Ou peut-être est-ce, tout simplement, le chiffre porte-bonheur d’un musée si sympathique où tout est fait pour offrir à chacun une pause temporelle et artistique ? Mais, après tout, qu’importe !<br><br>
+        Pierre disait : «L’Olympisme n’est point un système, c’est un état d’esprit. Les formules les plus diverses peuvent s’en pénétrer et il n’appartient ni à une race ni à une époque de s’en attribuer le monopole exclusif.»<br><br>
+        En me mettant au travail je me suis, tout d’abord, laissé emporter par mes émotions et, associées à Pierre de Coubertin, elles ne manquent pas.<br><br>
+        Permettez-moi deux conseils pour cette exposition : tout d’abord, laisser vos sens s’exprimer, et ensuite, comme pour tout voyage dans l’imaginaire d’un autre, laisser votre joie et votre confiance dans la vie prendre le dessus.<br><br>
+        Thomas Bach, Le président du CIO (Comité International Olympique) en hommage à Pierre de Coubertin, déclarait, le 23 juin 2024 à l'université de la Sorbonne :<br>
+        <em>« On n’est pas là pour glorier l’homme, mais pour comprendre le personnage »</em>. Pensez-y durant l’exposition.<br><br>
+        C’est à ce voyage dans le quotidien, faussement banal, que vous convie cette exposition. Laissez votre moi cartésien au vestiaire, pour faire émerger votre âme d’enfant, votre sens de la dérision. Mais, en même temps, gardez bien précieusement votre sens du questionnement en éveil. Celui qui vous fait sortir de votre zone de confort, celui qui vous permet d’appréhender une situation sous un angle qui n’est pas forcément celui de la bienséance ou celui attendu.<br><br>
+        Bref, laissez-vous happer par l’univers de cet homme qui a croqué la vie avec une ferveur indéniable, il était un idéaliste de l'excellence sportive et de l'unité internationale, malgré une fin de vie dans la solitude et la pauvreté, par ce travailleur infatigable et... puissions-nous nous y retrouver.<br><br>
+        Au plaisir de vous rencontrer tous nombreux…<br><br>
+        <strong>Pablo Voltany</strong>, commissaire de l'exposition<br><br>
+        « L’OLYMPISME, 32 jours avec Pierre de Coubertin : grandeur et mystères du père des JO modernes »<br>
+        Exposition temporaire au Palais Lumière d’Evian-Les-Bains du 2 janvier au 2 février 2025
+    </p>
+
+    
+    <p id="english" style="display:none;" class="manuscrit"> 
+        When the Museum Director made this particular request, I must admit, for an exhibition titled:<br>
+        <strong>"OLYMPISM, 32 Days with Pierre de Coubertin: Grandeur and Mysteries of the Father of the Modern Olympic Games"</strong>,<br>
+        I wondered why? Not why me, excuse my impertinence, but why 32?<br><br>
+        Coincidence of the calendar? A disguised call to France and thus to the origins of Pierre de Coubertin? This humorous touch, I believe, would have been appreciated by the man himself. Or perhaps it is simply the lucky number of such a friendly museum where everything is done to offer everyone a temporal and artistic pause? But, after all, who cares!<br><br>
+        Pierre once said: "Olympism is not a system, it is a state of mind. The most diverse formulas can penetrate it, and it does not belong to any race or era to claim exclusive monopoly over it." <br><br>
+        As I began working, I first allowed myself to be carried away by my emotions, which, associated with Pierre de Coubertin, are abundant.<br><br>
+        Allow me two pieces of advice for this exhibition: first, let your senses speak, and secondly, as with any journey into the imagination of another, let your joy and confidence in life take the lead.<br><br>
+        Thomas Bach, President of the IOC (International Olympic Committee), in tribute to Pierre de Coubertin, stated on June 23, 2024 at the Sorbonne University:<br>
+        <em>"We are not here to glorify the man, but to understand the character."</em> Keep this in mind during the exhibition.<br><br>
+        This exhibition invites you on a journey through everyday life, falsely banal. Leave your Cartesian self at the door to allow your childlike spirit and sense of humor to emerge. But at the same time, keep your questioning mindset awake. The one that makes you step out of your comfort zone, the one that allows you to view a situation from an angle that may not be one of politeness or expectation.<br><br>
+        In short, let yourself be drawn into the world of this man who devoured life with undeniable fervor. He was an idealist of athletic excellence and international unity, despite a life’s end in solitude and poverty, as an indefatigable worker... may we find ourselves in that spirit.<br><br>
+        I look forward to meeting you all...<br><br>
+        <strong>Pablo Voltany</strong>, curator of the exhibition<br><br>
+        "OLYMPISM, 32 Days with Pierre de Coubertin: Grandeur and Mysteries of the Father of the Modern Olympic Games"<br>
+        Temporary exhibition at the Palais Lumière in Evian-les-Bains from January 2 to February 2, 2025
+    </p>
+</div>
+
+<script>
+    document.getElementById('translateBtn').addEventListener('click', function() {
+        var english = document.getElementById('english');
+        var francais = document.getElementById('francais');
+        
+        if (english.style.display === "none") {
+            english.style.display = "block";
+            francais.style.display = "none";
+            this.textContent = "Retour en Français";
+        } else {
+            english.style.display = "none";
+            francais.style.display = "block";
+            this.textContent = "Translate to English";
+        }
+    });
+</script>
+<style>
+
+    .manuscrit {
+        font-family: 'Dancing Script', cursive;
+        font-size: 1.5em;  
+        line-height: 1.6;
+    }
+</style>
+
+
+</section>
+
+<section> 
+    <h2>Plan d'accès et informations pratique pour l'exposition du Palais Lumière à Evian</h2>
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2751.3902881895615!2d6.590318338989301!3d46.40131674243632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c2354d7898293%3A0x95c3d195b3eecd07!2sPalais%20Lumi%C3%A8re!5e0!3m2!1sfr!2sfr!4v1732521908165!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <ul>
+        <li><strong>Adresse :</strong> Palais Lumière, 6 Quai Charles-Alban, 74500 Évian-les-Bains, France</li>
+        <li><strong>Horaires :</strong> Ouvert tous les jours de 10h00 à 18h00</li>
+        <li><strong>Tarifs :</strong>
+            <ul>
+                <li>Adulte : 7 à 9 €</li>
+                <li>Réduit : 7 € (étudiants, seniors, etc.)</li>
+                <li>Gratuit : moins de 16 ans</li>
+            </ul>
+        </li>
+        <li><strong>Contact :</strong> Tél. : 04 50 75 77 16</li>
+        <li><strong>Accès :</strong>
+            <ul>
+                <li>En voiture : Parking à proximité</li>
+                <li>En transports publics : Arrêt de bus à 5 minutes à pied</li>
+                <li>À pied : À 10 minutes du centre-ville d'Évian</li>
+            </ul>
+        </li>
+    </ul>
+</section>
+
+<div id="cookieConsentBanner">
+    <div class="content">
+        <p>Ce site utilise des cookies pour améliorer votre expérience...</p>
+        <button id="acceptCookies">Accepter</button>
+        <button id="declineCookies">Refuser</button>
+    </div>
+</div>
+
+<script>
+    
+    const consentBanner = document.getElementById('cookieConsentBanner');
+    const acceptButton = document.getElementById('acceptCookies');
+    const declineButton = document.getElementById('declineCookies');
+
+    if (!getCookie('cookieConsent')) {
+        consentBanner.style.display = 'block';
+    }
+
+    acceptButton.onclick = function() {
+        setCookie('cookieConsent', 'accepted', 365);
+        consentBanner.style.display = 'none';
+    }
+
+    declineButton.onclick = function() {
+        setCookie('cookieConsent', 'declined', 365);
+        consentBanner.style.display = 'none';
+    }
+
+    function setCookie(name, value, days) {
+        const d = new Date();
+        d.setTime(d.getTime() + (days*24*60*60*1000));
+        const expires = "expires=" + d.toUTCString();
+        document.cookie = name + "=" + value + ";" + expires + ";path=/";
+    }
+
+    function getCookie(name) {
+        const decodedCookie = decodeURIComponent(document.cookie);
+        const ca = decodedCookie.split(';');
+        for (let i = 0; i < ca.length; i++) {
+            let c = ca[i].trim();
+            if (c.indexOf(name + "=") === 0) {
+                return c.substring(name.length + 1, c.length);
+            }
+        }
+        return "";
+    }
+</script>
+<footer>
+    <p>© 2024 Exposition Olympisme, Evian Tous droits réservés.</p>
+    <p><a href="/cgu.html">Conditions Générales d'Utilisation</a></p>
+    <style>
+        
+        a {
+            color: white; 
+        }
+    
+        a:hover {
+            color: #a31f92; 
+        }
+    </style>
+    
+    
+</footer>
+</body>
+</html>
